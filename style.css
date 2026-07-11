@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.common-btn{
+    background-color: #1D4ED8;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+section{
+    padding: 80px 18%;
+    display: grid;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 8%;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+.header-content button{
+    width: 40%;
+    margin-left: 30%;
+}
+.info{
+    
+    align-items: center;
+}
+.meet{
+text-align: center;
+margin-bottom: 30px ;
+
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+    
+}
+.image div img{
+width: 100%;
+border-radius: 10px;
+}
