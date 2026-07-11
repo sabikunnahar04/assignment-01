@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.common-btn{
+.common-btn {
     background-color: #1D4ED8;
     padding: 10px 25px;
     border-radius: 10px;
@@ -11,14 +11,16 @@
     font-size: 14px;
     color: white;
 }
-.container{
+
+.container {
     max-width: 800px;
     margin: auto;
 }
-section{
+
+section {
     padding: 80px 18%;
     display: grid;
-    
+
 }
 
 nav {
@@ -28,21 +30,24 @@ nav {
     align-items: center;
 }
 
-ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     gap: 15px;
     align-items: center;
 }
-a{
+
+a {
     text-decoration: none;
 }
-button{
+
+button {
     border: none;
 
 }
-header{
+
+header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
     height: 90vh;
     background-repeat: no-repeat;
@@ -52,33 +57,166 @@ header{
     justify-content: center;
     align-items: center;
 }
-.header-content{
+
+.header-content {
     color: white;
     text-align: center;
     display: grid;
     gap: 20px;
 }
-.header-content button{
+
+.header-content button {
     width: 40%;
     margin-left: 30%;
 }
-.info{
-    
+
+.info {
+
     align-items: center;
 }
-.meet{
-text-align: center;
-margin-bottom: 30px ;
+
+.meet {
+    text-align: center;
+    margin-bottom: 30px;
 
 }
-.image{
+
+.image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    
+}
+
+.image div img {
+    width: 100%;
+    /* border-radius: 10px; */
+}
+
+.a {
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.person1 {
+    padding: 14px 20px;
+}
+
+.b {
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.person2 {
+    padding: 14px 20px;
+}
+
+.c {
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.person3 {
+    padding: 14px 20px;
+}
+
+.d {
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.person4 {
+    padding: 14px 20px;
+}
+
+
+/* price */
+.info-container{
+     width:80%;
+    margin:80px auto;
+}
+.info1 {
+    text-align: center;
+}
+
+.spot {
+    padding: 20px;
+}
+
+.list ul{
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
     
 }
-.image div img{
-width: 100%;
-border-radius: 10px;
+.list{
+    border: 1px solid black ;
+    margin: 30px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+.list li {
+    margin-bottom: 10px;
+}hr {
+    margin: 20px 0;
+}
+.but{
+    color: #2563EB;
+    width: 150px;
+    height: 30px;
+    margin: 0 28px 0;
+    border: 1px solid #2563EB;
+    border-radius: 5px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* pricepro */
+.color{
+    background-color: aquamarine;
+}
+
+.list2 ul{
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+    color: #FFFFFF;
+    
+}
+.list2{
+    border: 1px solid #FFFFFF ;
+    margin: 30px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #0D1B2A;
+    
+}
+.list2 li {
+    margin-bottom: 10px;
+}hr {
+    margin: 20px 0;
+}
+.but2{
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin: 0 28px 0;
+    background-color: #2563EB;
+    border-radius: 5px;
+}
+.taka, .each{
+    color: #FFFFFF;
+}
+.value{
+    color: #93C5FD;
 }
