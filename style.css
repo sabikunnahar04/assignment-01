@@ -134,10 +134,10 @@ header {
 
 
 /* price */
-.info-container{
+/* .info-container{
      width:80%;
     margin:80px auto;
-}
+} */
 .info1 {
     text-align: center;
 }
@@ -176,7 +176,9 @@ header {
 }
 .parent{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 240px);
+    justify-content: center;
+    
 }
 
 /* pricepro */
@@ -219,4 +221,28 @@ header {
 }
 .value{
     color: #93C5FD;
+}
+
+
+/* Footer */
+footer{
+    background-color: #0D1B2A;
+}
+.footer-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    align-items: center;
+    gap: 80%;
+}
+.media-icon img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
 }
